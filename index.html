@@ -2,10 +2,184 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn-icons-png.freepik.com/512/686/686165.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style (1).css">
+    <title>Chetana Portfolio</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <a class="navbar-brand" href="#" ><span class="brand tracking-in-expand">Chetana</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home"><span class="navmenu">Home</span> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about"><span class="navmenu">About</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills"><span class="navmenu">Skills</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects"><span class="navmenu">Projects</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacts"><span class="navmenu">Contacts</span></a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <!-- nav bar ends here -->
+   <div class="main-container">
+    <section id="home" class="portfolio-sections home-section">
+        <div id="home-info">
+            <span class="info">Hi </span><br/>
+            <span class="info">My name is </span><br>
+            <span class="brand myname">CHETANA</span><br>
+            <span class="info">I am <span class="designation">Frontend Developer.</span></span>
+            <button href="demo.pdf" class="rsmbtn">RESUME</button>
+        </div>
+    </section>
+    <hr>
+     <section id="about" class="portfolio-section about-section">
+        <!-- <h1>ABOUT</h1> -->
+        <div class="aboutmain">
+         <div class="myimage">
+            <img src="cartoon img.jpg">
+          </div>
+          <div class="carrerobj">
+            <h1 class="heading">ABOUT</h1>
+            <p class="carrerinfo" >A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth-oriented company where I can use my skills to the advantage of the company while having the scope to develop my skills.</p>
+          </div>
+        </div>
+    
+              
+              </section>
+         
+    <section id="skills" class="portfolio-sections skill-section">
+        <h1 class="heading">SKILLS</h1>
+        <table class="tbl" hight="500px" width="90%" cellspacing="50px">
+          <tr align="center" valign="top">
+            <div class="borderskills">
+              <td width="50%" data-aos="slide-right">
+                <h2 class="skills-subheading">Languages</h2>
+                <p class="detailedSkills">
+                  Core Java,C,C++,Python,C#,JavaScript,HTML,CSS,SQL
+                </p>
+              </td>
+            </div>
+            <div class="borderskills" padding-top="55px">
+              <td data-aos="slide-left"><h2 class="skills-subheading">API's & Frameworks</h2>
+                <p class="detailedSkills">
+                  Collection, Streams API, Rest API, Spring, Hibernates, Servlets, JDBC, SpringBoot, Spring MVC, JSP, ReactJS.
+                </p>
+             </td>
+             </div>
+             </tr>
+             <tr align="center" valign="top">
+              <div class="borderskills">
+                <td data-aos="slide-right"><h2 class="skills-subheading">Tools</h2>
+                  <p class="detailedSkills">
+                    VS Code, Eclipse IDE, Git, Github,Netbeans, Postman, MySql Workbench, Maven, Tomact, MongoDB.
+                  </p>
+                </td>
+              </div>
+              <div class="borderskills">
+                <td data-aos="slide-left"><h2 class="skills-subheading">Operating Systems</h2>
+                  <p class="detailedSkills">
+                    Windows, Andriod, ios, Linux, Ubuntu, Solaris.
+                  </p>
+                </td>
+              </div>
+             </tr>
+        </table>
+      </section>     
+             
+    <section id="projects" class="portfolio-sections">
+      <h1 align="center">PROJECTS</h1>
+      <div class="project-content" >
+        <div class="card-group">
+          <div class="card">
+            <img src="https://s3-alpha.figma.com/hub/file/3863763275/43bb9a44-3863-4ff2-ad24-a2de0a50d129-cover.png" class="card-img-top" height="300px" width="100px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://s3-alpha.figma.com/hub/file/3863763275/43bb9a44-3863-4ff2-ad24-a2de0a50d129-cover.png" class="card-img-top" height="300px" width="100px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://s3-alpha.figma.com/hub/file/3863763275/43bb9a44-3863-4ff2-ad24-a2de0a50d129-cover.png" class="card-img-top" height="300px" width="100px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="portfolio-sections">
+        <h3 class="heading">CONTACT</h3>
+        <div class="contant-container">
+          <div class="contact-child" >
+            <ul class="contact-info" type="none">
+              <li>&#x1F449; chetanapatil2494@gmail.com</li>
+              <li>&#x1F449; 7620158212</li>
+              <li>&#x1F449; Pune MH</li>
+              </ul>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <!-- <form>
+              <div class="form-group">
+                <label for="exampleInputEmail">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail"
+                aria-describedby="emailHelp"> 
+
+              </div>
+              <div class="form-group">
+                <label for="">Comment</label>
+                <textarea class="form-control" id="exampleInputEmailexamplePassword1"></textarea>
+                </div>
+                <div class="form-group form check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form> -->
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <h1 id="footerinfo">Made By @CHETANA2494</h1>
+      </section>    
 </body>
 </html>
